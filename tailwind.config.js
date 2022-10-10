@@ -10,7 +10,7 @@ module.exports = {
       accent: "red",
       accentDark: "blue",
       primaryBg: "white",
-      primaryBgDark: "blue",
+      primaryBgDark: "black",
       text: "black",
       textDark: "white",
       transparent: "transparent",

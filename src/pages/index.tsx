@@ -37,7 +37,7 @@ const Home: NextPage = () => {
 
   return (
     <LocaleContext.Provider value={localeData}>
-      <div className={`flex flex-col ${theme}`}>
+      <div className={`flex flex-col ${theme} ${localeData.locale}`}>
         <NavBar
           onThemeClick={toggleTheme}
           onLocaleClick={toggleLocale}
