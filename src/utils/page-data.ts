@@ -60,7 +60,7 @@ export const enPageData: PageData = {
 
 export const esPageData: PageData = {
   NAVIGATION_BAR: {
-    ABOUT_ME: "SOBRE MI",
+    ABOUT_ME: "ACERCA DE MI",
     PROJECTS: "PROYECTOS",
     CONTACT: "CONTACTO",
   },

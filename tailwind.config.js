@@ -9,13 +9,25 @@ module.exports = {
     colors: {
       accent: "red",
       accentDark: "blue",
+      linkHover: "gray",
+      linkHoverDark: "gray",
       primaryBg: "white",
       primaryBgDark: "black",
       text: "black",
       textDark: "white",
       transparent: "transparent",
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        toggleIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+      },
+      animation: {
+        toggleIn: "toggleIn 500ms 1",
+      },
+    },
   },
   plugins: [],
 };
