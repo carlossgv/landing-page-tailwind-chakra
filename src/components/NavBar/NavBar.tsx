@@ -12,11 +12,9 @@ export default function NavBar({ onThemeClick, onLocaleClick, theme }: Props) {
   const { locale, data } = useContext(LocaleContext);
 
   return (
-    <nav
-      className={`w-full flex flex-col items-center md:flex-row md:justify-between bg-primaryBg dark:bg-primaryBgDark text-text dark:text-textDark ease-linear duration-300 ${locale}`}
-    >
+    <nav className="w-full flex flex-col items-center md:flex-row md:justify-between bg-primaryBg dark:bg-primaryBgDark text-text dark:text-textDark ease-linear duration-300">
       <h3 className="text-4xl font-bold">&lt;CG.DEV/&gt;</h3>
-      <ul className="flex space-x-4 ">
+      <ul className="flex space-x-4">
         <li>{data.NAVIGATION_BAR.ABOUT_ME}</li>
         <li>{data.NAVIGATION_BAR.PROJECTS}</li>
         <li>{data.NAVIGATION_BAR.CONTACT}</li>
