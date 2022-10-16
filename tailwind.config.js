@@ -25,7 +25,7 @@ module.exports = {
         },
       },
       animation: {
-        toggleIn: "toggleIn 500ms 1",
+        toggleIn: "toggleIn 600ms 1",
       },
     },
   },
